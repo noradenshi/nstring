@@ -1,3 +1,6 @@
+#ifndef NSTRING_H
+#define NSTRING_H
+
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdio.h>
@@ -42,3 +45,5 @@ int string_nfind(const struct string *str, const char *needle, const size_t n);
 int string_strfind(const struct string *str, const char *needle);
 int string_compare(const struct string *str_a, const struct string *str_b);
 bool string_equals(const struct string *str_a, const struct string *str_b);
+
+#endif
